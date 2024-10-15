@@ -7,7 +7,7 @@ console.log(PORT);
 console.log("process.env", process.env);
 
 app.get('/', (req, res) => {
-    res.send(`<h1>Welcome to my Express App</h1>`);
+    res.send(`<h1>Welcome to my Express App 🐱</h1>`);
 });
 
 app.listen(PORT, () => {
